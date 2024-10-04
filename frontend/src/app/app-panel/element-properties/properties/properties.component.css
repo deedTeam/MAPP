@@ -1,0 +1,36 @@
+body {
+  height: 318px;
+  margin: 0;
+  padding: 12px 8px 12px 8px;
+  background-color: var(--Window-bg);
+  border-radius: 0 16px 16px 16px;
+}
+
+
+#description{
+  display: flex;
+}
+
+#name {
+  font: var(--font-title);
+  width: 100%;
+}
+
+#name-block {
+  padding: 4px 8px 4px 8px;
+  background-color: aquamarine;
+}
+
+
+.type-button {
+  background-color: black;
+  border-radius: var(--button-border);
+  color: white;
+  padding: 4px 8px 4px 8px;
+}
+
+#type-list {
+  display: flex;
+  width: 100%;
+}
+
