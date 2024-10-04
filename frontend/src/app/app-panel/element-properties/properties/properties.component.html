@@ -1,12 +1,14 @@
 <p>properties works!</p>
 <body>
 
+
+<div id="properties-body">
   <div id="name-block"> <!-- Nazwa, opis, typ -->
 
     <div style="display: flex; gap: 8px; align-self: stretch">
       <div id="name"
         contenteditable="true"
-        class="editable"> Title
+        class="editable title"> Title
       </div>
 
       <div id="geometry-type"
@@ -23,7 +25,7 @@
 
     <div id="type-list">
       <div style="display: flex; width: 100%;">
-        <div class="type-button" >
+        <div contenteditable="true" class="type-button" >
           xx
         </div>
       </div>
@@ -34,13 +36,38 @@
 
   </div>
 
+    <div class="divider"></div>
+
   <div id="design-block">
+    <div class="title"> Design </div>
+
+    <div id="stroke" class="design-parameter-container">
+      <div class="design-parameter descriptive">Stroke</div>
+    </div>
+
+    <div id="fill" class="design-parameter-container">
+      <div class="design-parameter descriptive">Fill</div>
+    </div>
 
   </div>
+
+    <div class="divider"></div>
 
   <div id="attributes-block">
 
-  </div>
+    <div class="title"> Attributes </div>
 
+    <div class="attribute-container">
+      <div class="attribute-name descriptive">Age</div>
+      <div class="attribute-value-field"  contenteditable="true"></div>
+    </div>
+
+    <div class="attribute-container">
+      <div class="attribute-name descriptive">Height</div>
+      <div class="attribute-value-field editable" contenteditable="true"></div>
+    </div>
+
+  </div>
+</div>
 
 </body>

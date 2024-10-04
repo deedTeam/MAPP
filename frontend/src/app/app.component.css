@@ -26,6 +26,9 @@ html, body {
   padding: 24px 24px 0 0;
 }
 
+
+
+
 .map-container {
   position: fixed;
   top: 0x;
@@ -34,3 +37,4 @@ html, body {
   bottom: 0;
   background-color: #f0f0f0;
 }
+

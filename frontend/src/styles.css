@@ -1,21 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  /* Definicje kolorów bazowych */
-  --B100: #E0DFDD;
+  /* Black */
+  --B100: #2E2E2E;
+  --B25: rgb(46, 46, 46, 0.25);
 
-  /* Kolor z przezroczystością */
-  --B75: rgba(224, 223, 221, 0.75);
+
+  /*White*/
+  --W100: #E0DFDD;
+  --W75: rgba(224, 223, 221, 0.75);
+  --W25: rgba(224, 223, 221, 0.25);
+  --W10: rgba(224, 223, 221, 0.1);
+
+  --In: #5258E4;
 
   /* Kolor dla tła okien */
-  --Window-bg: var(--B75);
+  --Window-bg: var(--W75);
+  --steady-button: var(--W25);
 
 
-  --font-title: 500 18px 'TT Commons';
+  --font-title: 400 18px 'TT Commons';
+  --font-descriptive: 300 16px "TT Commons";
+  --font-captions: 400 14px "TT Commons";
+  --font-parameters: 400 12px "TT Commons";
+  --font-geometry-type: 400 11px "TT Commons";
 
   --button-border: 8px;
   --window-border: 16px;
 }
 
+.divider {
+  background-color: gray;
+  width: calc(100%-8px);
+  height: 1px;
+  margin: 0 4px 0 4px;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src:
+    url('./assets/fonts/TT Commons/TT Commons Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'TT Commons';
@@ -31,4 +57,13 @@
     url('./assets/fonts/TT Commons/TT Commons Medium.otf') format('truetype');
   font-weight: 500 ;
   font-style: normal;
+}
+
+
+.title {
+  font: var(--font-title);
+}
+
+.descriptive {
+  font: var(--font-descriptive);
 }

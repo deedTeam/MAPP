@@ -1,26 +1,79 @@
 body {
-  height: 318px;
   margin: 0;
   padding: 12px 8px 12px 8px;
   background-color: var(--Window-bg);
   border-radius: 0 16px 16px 16px;
 }
 
+.attribute-container{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 4px;
+}
+
+#design-block {
+  width: 100%;
+  gap: 8px;
+  padding: 4px 8px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: burlywood; */
+  box-sizing: border-box;
+}
+
+#attributes-block {
+  width: 100%;
+  gap: 8px;
+  padding: 4px 8px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+/* background-color: burlywood; */
+}
+
+
+.attribute-name{
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.attribute-value-field{
+  background-color: var(--steady-button) ;
+  mix-blend-mode: multiply;
+  width: 88px;
+  border-radius: var(--button-border);
+  box-sizing: border-box;
+}
 
 #description{
   display: flex;
+  font: var(--font-descriptive);
+}
+
+
+#geometry-type{
+  font: var(--font-geometry-type);
+  color: var(--B25);
 }
 
 #name {
-  font: var(--font-title);
-  width: 100%;
+    width: 100%;
 }
 
 #name-block {
   padding: 4px 8px 4px 8px;
-  background-color: aquamarine;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
+#properties-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 
 .type-button {
   background-color: black;
