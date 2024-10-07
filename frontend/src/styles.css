@@ -18,21 +18,22 @@
   --steady-button: var(--W25);
 
 
-  --font-title: 400 18px 'TT Commons';
-  --font-descriptive: 300 16px "TT Commons";
+  --font-title: 500 18px 'TT Commons';
+  --font-descriptive: 400 14px "TT Commons";
   --font-captions: 400 14px "TT Commons";
-  --font-parameters: 400 12px "TT Commons";
-  --font-geometry-type: 400 11px "TT Commons";
+  --font-parameters: 400 14px "TT Commons";
+  --font-geometry-type: 400 12px "TT Commons";
 
   --button-border: 8px;
   --window-border: 16px;
 }
 
 .divider {
-  background-color: gray;
-  width: calc(100%-8px);
+  background-color: var(--W25);
+  mix-blend-mode: multiply;
+  width: calc(100% - 16px);
   height: 1px;
-  margin: 0 4px 0 4px;
+  margin: 0 8px 0 8px;
 }
 
 @font-face {
@@ -66,4 +67,8 @@
 
 .descriptive {
   font: var(--font-descriptive);
+}
+
+.parameters {
+  font: var(--font-parameters);
 }

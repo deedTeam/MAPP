@@ -1,0 +1,22 @@
+#toolbar {
+  background-color: var(--Window-bg);
+  mix-blend-mode: multiply;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: var(--window-border);
+  padding: 0 12px 0 12px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.tool {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}

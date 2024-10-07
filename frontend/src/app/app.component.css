@@ -18,7 +18,7 @@ html, body {
   top: 0;
   width: 264px;
   height: 100%;
-  background-color: lightpink;
+  /* background-color: lightpink; */
   color: black;
   display: flex;
   flex-direction: column;
@@ -31,10 +31,17 @@ html, body {
 
 .map-container {
   position: fixed;
-  top: 0x;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: #f0f0f0;
 }
 
+app-toolbar{
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  box-sizing: border-box;
+  }
