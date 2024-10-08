@@ -1,3 +1,13 @@
+
+.divider-tool{
+  width: 1px;
+  height: 24px;
+  margin: 0 8px 0 8px;
+  background-color: var(--B25);
+  mix-blend-mode: multiply;
+  box-sizing: border-box;
+}
+
 #toolbar {
   background-color: var(--Window-bg);
   mix-blend-mode: multiply;

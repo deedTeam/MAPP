@@ -5,6 +5,20 @@ body {
   border-radius: 0 16px 16px 16px;
 }
 
+#add-type {
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+  border-style: none;
+  background-color: var(--W25);
+  mix-blend-mode: multiply;
+  color: var(--B25);
+}
+
+#add-type:hover{
+  background-color: var(--W75);
+}
+
 .attribute-container{
   display: flex;
   width: 100%;
@@ -43,6 +57,12 @@ body {
   font: var(--font-descriptive);
 }
 
+#description:focus {
+  outline: none;
+  color: var(--B25);
+  mix-blend-mode: multiply;
+}
+
 #design-block {
   width: 100%;
   gap: 8px;
@@ -61,8 +81,17 @@ body {
   color: var(--B25);
 }
 
+
 #name {
     width: 100%;
+  border-style: none;
+}
+
+#name:focus {
+  outline: none; /* Usuwa domyślną ramkę */
+  color: var(--B25); /* Ustawia tło na zmienną W25 */
+  mix-blend-mode: multiply; /* Ustawia tryb mieszania tła */
+  border-radius: 8px;
 }
 
 #name-block {
@@ -71,7 +100,10 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  border-style: none;
 }
+
+
 
 #properties-body {
   display: flex;
