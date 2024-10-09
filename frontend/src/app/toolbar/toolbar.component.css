@@ -29,4 +29,9 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.tool:active{
+  background-color: #5258E4;
 }
