@@ -3,6 +3,7 @@ body {
   padding: 12px 8px 12px 8px;
   background-color: var(--Window-bg);
   border-radius: 0 16px 16px 16px;
+  backdrop-filter: blur(8px);
 }
 
 #add-type {

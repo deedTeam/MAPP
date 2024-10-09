@@ -13,7 +13,7 @@ export class MapComponent implements AfterViewInit {
 map:any;
 
   ngAfterViewInit() {
-    this.map = L.map('map').setView([51.867603, 19.520680], 7);
+    this.map = L.map('map').setView([51.867603, 19.520680], 11);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     }).addTo(this.map);
